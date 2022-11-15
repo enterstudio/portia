@@ -3,7 +3,7 @@ numpy==1.11.3
 Scrapy==1.2.2
 scrapely==0.13.2
 loginform==1.2.0
-lxml==3.7.0
+lxml==4.9.1
 dateparser==0.5.1
 python-dateutil<=2.4.2
 jsonschema==2.4.0
@@ -11,3 +11,4 @@ six==1.10.0
 scrapy-splash==0.7.1
 page_finder==0.1.8
 chardet==2.3.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
