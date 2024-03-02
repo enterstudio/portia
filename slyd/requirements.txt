@@ -13,3 +13,4 @@ mock==2.0.0
 # Splash dev
 --allow-external=splash
 https://github.com/scrapinghub/splash/archive/master.tar.gz
+cryptography>=42.0.2 # not directly required, pinned by Snyk to avoid a vulnerability
